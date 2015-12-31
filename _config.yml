@@ -1,0 +1,30 @@
+name: My Journal
+author: Liching Yew
+baseurl: /journal
+description: The journal of Liching Yew
+github: https://github.com/liching21
+twitter: https://twitter.com/lichingyew
+facebook: https://www.facebook.com/liching.yew
+linkedin: https://www.linkedin.com/in/lichingyew
+email: liching.yew@gmail.com
+##disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
