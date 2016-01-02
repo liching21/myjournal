@@ -25,6 +25,12 @@ $('.nav-toggle').on('click', function () {
 
 $(function() {
     $('.project-box').click(function() {
+        $(this).find('.project-post-content').slideToggle();
+    });
+});
+
+$(function() {
+    $('.project-box').click(function() {
         $(this).find('.post').slideToggle();
     });
 });
